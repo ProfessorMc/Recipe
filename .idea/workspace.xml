@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9800d40d-4210-4607-ba81-bccc23e1b90b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Recipe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/04-structs/appliance/chefomatic.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/04-structs/appliance/chefomatic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/04-structs/appliance/freezeomatic.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/04-structs/appliance/freezeomatic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/04-structs/appliance/heatomatic.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/04-structs/appliance/heatomatic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/04-structs/dish/dish.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/04-structs/dish/dish.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/04-structs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/04-structs/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/04-structs/recipe/recipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/04-structs/recipe/recipe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/05-interfaces/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/05-interfaces/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/05-interfaces/robot/choppingrobot.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/05-interfaces/robot/choppingrobot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/05-interfaces/robot/dicingrobot.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/05-interfaces/robot/dicingrobot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/05-interfaces/robot/juliennerobot.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/05-interfaces/robot/juliennerobot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/05-interfaces/robot/slicer.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/05-interfaces/robot/slicer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/05-interfaces/robot/slicingrobot.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/05-interfaces/robot/slicingrobot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/spoiler/Lab2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/spoiler/Lab3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/spoiler/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spoilers/recipe/cookbook.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spoilers/recipe/recipe.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,73 +21,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/04-structs/temperature/temperature.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/ingredient/ingredient.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/robot/choppingrobot.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/robot/dicingrobot.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/robot/juliennerobot.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/robot/slicer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/robot/slicingrobot.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-              <folding>
-                <element signature="e#14#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmd/04-structs/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
@@ -108,15 +30,95 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmd/02-variables/main_test.go">
+        <entry file="file://$PROJECT_DIR$/cmd/04-structs/temperature/temperature.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/04-structs/appliance/label.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/03-collections/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="52">
+              <caret line="26" selection-start-line="26" selection-end-line="31" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spoilers/recipe/recipe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd/spoiler/Lab3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#14#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spoilers/recipe/cookbook.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+              <folding>
+                <element signature="e#16#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/04-structs/recipe/recipe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/spoiler/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/spoiler/Lab2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="e#14#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.5/libexec" />
   <component name="Git.Settings">
@@ -142,6 +144,12 @@
         <option value="$PROJECT_DIR$/cmd/05-interfaces/robot/slicingrobot.go" />
         <option value="$PROJECT_DIR$/cmd/05-interfaces/main.go" />
         <option value="$PROJECT_DIR$/cmd/04-structs/main.go" />
+        <option value="$PROJECT_DIR$/cmd/spoiler/Lab2.go" />
+        <option value="$PROJECT_DIR$/spoilers/recipe/coockbook.go" />
+        <option value="$PROJECT_DIR$/spoilers/recipe/recipe.go" />
+        <option value="$PROJECT_DIR$/spoilers/recipe/cookbook.go" />
+        <option value="$PROJECT_DIR$/cmd/spoiler/main.go" />
+        <option value="$PROJECT_DIR$/cmd/spoiler/Lab3.go" />
       </list>
     </option>
   </component>
@@ -169,7 +177,53 @@
             <path>
               <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="04-structs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="04-structs" type="462c0819:PsiDirectoryNode" />
+              <item name="appliance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="04-structs" type="462c0819:PsiDirectoryNode" />
+              <item name="dish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="04-structs" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="04-structs" type="462c0819:PsiDirectoryNode" />
+              <item name="temperature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+              <item name="spoiler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
               <item name="spoilers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="spoilers" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,6 +234,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -202,7 +257,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Recipe" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/spoiler/main.go" />
+      <package value="github.com/ProfessorMc/Recipe" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestFriend in github.com/ProfessorMc/Recipe/spoilers/friend" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Recipe" />
       <working_directory value="$PROJECT_DIR$/spoilers/friend" />
@@ -216,6 +280,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestFriend in github.com/ProfessorMc/Recipe/spoilers/friend" />
       </list>
     </recent_temporary>
@@ -248,12 +313,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -264,7 +329,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -280,13 +345,6 @@
     <SUITE FILE_PATH="coverage/Recipe$TestFriend_in_github_com_ProfessorMc_Recipe_spoilers_friend.out" NAME="TestFriend in github.com/ProfessorMc/Recipe/spoilers/friend Coverage Results" MODIFIED="1561225266589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spoilers/friend/friend.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spoilers/friend/friend_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -296,9 +354,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/03-collections/main.go">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/04-structs/appliance/chefomatic.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -327,25 +382,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/04-structs/appliance/label.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmd/04-structs/dish/dish.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/04-structs/recipe/recipe.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/04-structs/temperature/temperature.go">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/05-interfaces/ingredient/ingredient.go">
       <provider selected="true" editor-type-id="text-editor" />
@@ -402,10 +444,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spoilers/friend/friend.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/spoiler/Lab2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoilers/recipe/recipe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoilers/recipe/cookbook.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="e#16#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/03-collections/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="26" selection-start-line="26" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/04-structs/recipe/recipe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmd/04-structs/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/04-structs/temperature/temperature.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/04-structs/appliance/label.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/spoiler/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/spoiler/Lab3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
