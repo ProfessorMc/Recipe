@@ -1,6 +1,6 @@
 package robot
 
-import i "../ingredient"
+import i "github.com/ProfessorMc/Recipe/cmd/05-interfaces/ingredient"
 
 type ChoppingRobot struct {
 	name string

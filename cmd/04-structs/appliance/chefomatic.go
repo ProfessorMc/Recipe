@@ -1,7 +1,7 @@
 package appliance
 
-import r "../recipe"
-import d "../dish"
+import r "github.com/ProfessorMc/Recipe/cmd/04-structs/recipe"
+import d "github.com/ProfessorMc/Recipe/cmd/04-structs/dish"
 
 type ChefOMatic struct {
 	*Label

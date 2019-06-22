@@ -1,7 +1,7 @@
 package appliance
 
-import d "../dish"
-import t "../temperature"
+import d "github.com/ProfessorMc/Recipe/cmd/04-structs/dish"
+import t "github.com/ProfessorMc/Recipe/cmd/04-structs/temperature"
 
 type HeatOMatic struct {
 	*Label

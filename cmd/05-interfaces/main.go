@@ -1,8 +1,8 @@
 package main
 
 import "fmt"
-import i "./ingredient"
-import r "./robot"
+import i "github.com/ProfessorMc/Recipe/cmd/05-interfaces/ingredient"
+import r "github.com/ProfessorMc/Recipe/cmd/05-interfaces/robot"
 
 // Lab 5.  Interface, the Empty Interface{}, Type Assertions
 // Requirements:
@@ -22,7 +22,7 @@ import r "./robot"
 
 func performAction(robotName string, slicer r.Slicer, ingredient *i.Ingredient) {
 	action := slicer.Slice(ingredient)
-	fmt.Println("Robot Name: %s; Action: %s; Ingredient Name: %s; Ingredent Sliced: %t",
+	fmt.Printf("Robot Name: %s; Action: %s; Ingredient Name: %s; Ingredent Sliced: %t\n",
 		robotName, action, ingredient.Name(), ingredient.Sliced())
 }
 
