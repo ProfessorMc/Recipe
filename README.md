@@ -1,14 +1,15 @@
 # Recipe
 
 0. Setup Notes (Go, Visual Studio Code, etc)
-1. Variables
-2. Arrays, Slices, and Maps (oh my!)
-3. Structs and Methods
-4. Interface, the Empty Interface{}, Type Assertions
-5. A Time to Reflect
-6. Goroutines and Channels
-7. Embarassingly Parallel
-8. When Locking Ovens Matter
-9. A Recipe for Dining Philosophers
-10. Panics and Errors in the Kitchen
+1. Hello World!
+2. Variables
+3. Arrays, Slices, and Maps (oh my!)
+4. Structs and Methods
+5. Interface, the Empty Interface{}, Type Assertions
+6. A Time to Reflect
+7. Goroutines and Channels
+8. Embarassingly Parallel
+9. When Locking Ovens Matter
+10. A Recipe for Dining Philosophers
+11. Panics and Errors in the Kitchen
 
