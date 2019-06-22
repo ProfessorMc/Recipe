@@ -1,6 +1,6 @@
 package dish
 
-import t "../temperature"
+import t "github.com/ProfessorMc/Recipe/cmd/04-structs/temperature"
 
 type Dish struct {
 	name string

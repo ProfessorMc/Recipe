@@ -1,10 +1,10 @@
 package main
 
 import "fmt"
-import a "./appliance"
-import r "./recipe"
-import d "./dish"
-import t "./temperature"
+import a "github.com/ProfessorMc/Recipe/cmd/04-structs/appliance"
+import r "github.com/ProfessorMc/Recipe/cmd/04-structs/recipe"
+import d "github.com/ProfessorMc/Recipe/cmd/04-structs/dish"
+import t "github.com/ProfessorMc/Recipe/cmd/04-structs/temperature"
 
 // Lab 4.  Structs and Methods
 // Requirements:
@@ -48,9 +48,9 @@ func main() {
 
 	fmt.Println("Appiances found @ the center of the Earth")
 	fmt.Println("-----------------------------------------")
-	fmt.Println("Name: %s; Brand: %s", chefOMatic.Name(), chefOMatic.Brand())
-	fmt.Println("Name: %s; Brand: %s", heatOMatic.Name(), heatOMatic.Brand())
-	fmt.Println("Name: %s; Brand: %s", freezeOMatic.Name(), freezeOMatic.Brand())
+	fmt.Printf("Name: %s; Brand: %s\n", chefOMatic.Name(), chefOMatic.Brand())
+	fmt.Printf("Name: %s; Brand: %s\n", heatOMatic.Name(), heatOMatic.Brand())
+	fmt.Printf("Name: %s; Brand: %s\n", freezeOMatic.Name(), freezeOMatic.Brand())
 
 	var gc *d.Dish
 
@@ -59,19 +59,19 @@ func main() {
 		chefOMatic.Off()
 	}
 
-	fmt.Println("Cooked dish: %v", *gc)
+	fmt.Printf("Cooked dish: %v\n", *gc)
 
 	if heatOMatic.On(); heatOMatic.IsOn() {
 		gc = heatOMatic.Heat(gc, t.Celcius(325))
 		heatOMatic.Off()
 	}
 
-	fmt.Println("Heated dish: %v", *gc)
+	fmt.Printf("Heated dish: %v\n", *gc)
 
 	if freezeOMatic.On(); freezeOMatic.IsOn() {
 		gc = freezeOMatic.Cool(gc, t.Celcius(125))
 		freezeOMatic.Off()
 	}
 
-	fmt.Println("Cooled dish: %v", *gc)
+	fmt.Printf("Cooled dish: %v\n", *gc)
 }

@@ -1,6 +1,6 @@
 package recipe
 
-import t "../temperature"
+import t "github.com/ProfessorMc/Recipe/cmd/04-structs/temperature"
 
 type Recipe struct {
 	name        string
