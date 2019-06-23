@@ -66,8 +66,7 @@ func philosopher(name string, logger chan<- string, leftForkChan chan fork, righ
 func timeout(timeout time.Duration, quit chan<- stop) {
 	time.Sleep(timeout * time.Second)
 
-	var kill stop
-	quit <- kill
+	quit <- stop{}
 }
 
 func main() {
@@ -91,8 +90,7 @@ func main() {
 
 	//Provide the forks to the philosophers and let the fun begin
 	for i := 0; i < 5; i++ {
-		var newFork fork
-		forks[i] <- newFork
+		forks[i] <- fork{}
 	}
 
 	//Watch and wait
