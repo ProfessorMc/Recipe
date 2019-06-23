@@ -3,34 +3,26 @@ package recipe
 import "time"
 
 type Recipe struct {
-	name        string
-	cookTime    time.Duration
-	cookTemp    float32
-	ingredients []string
+
 }
 
 func NewRecipe(name string, cookTime time.Duration, temp float32, ingredients ...string) *Recipe {
-	return &Recipe{
-		name:name,
-		cookTime:cookTime,
-		cookTemp:temp,
-		ingredients:ingredients,
-	}
+	panic("implement NewRecipe")
 }
 
 func (r *Recipe) GetName() string {
-	return r.name
+	panic("implement NewRecipe")
 }
 
 func (r *Recipe) GetCookTime() time.Duration {
-	return r.cookTime
+	panic("implement GetCookTime")
 }
 
 func (r *Recipe) GetCookTemp() float32 {
-	return r.cookTemp
+	panic("implement GetCookTemp")
 }
 
 func (r *Recipe) GetIngredients() []string {
-	return r.ingredients
+	panic("implement GetIngredients")
 }
 
