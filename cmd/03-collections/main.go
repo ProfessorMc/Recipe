@@ -6,7 +6,7 @@ import (
 
 // Lab 3.  Arrays, Slices, and Maps
 // Requirements:
-// 01 - As a lonely person, I would like an application to collect my favorate recipes
+// 01 - As a lonely person, I would like an application to collect my favorite recipes
 // 02 - As a lonely person, I would like the application to be able to index my recipes by name
 //
 // Objective:
@@ -74,7 +74,7 @@ func main() {
 
 	printRecipes(recipes[:])
 
-	// TODO 02 - Modify the cook time for the second Recipe
+	// TODO 02 - Modify the cooker time for the second Recipe
 	updateCookTime(2, recipes[:])
 
 	//TODO 03 - Print only the second Recipe

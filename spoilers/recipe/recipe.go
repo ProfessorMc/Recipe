@@ -4,7 +4,7 @@ import "time"
 
 type Recipe struct {
 	name        string
-	cookTime    time.Duration //Bonus points if you change this to an actual time type
+	cookTime    time.Duration
 	cookTemp    float32
 	ingredients []string
 }
