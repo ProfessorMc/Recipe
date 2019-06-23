@@ -10,6 +10,8 @@ import (
 var cookbook *cb.CookBook
 
 func lab4() {
+	fmt.Println("-- Lab4 Cookbook --")
+
 	fmt.Println("-- Here's what I can Make --")
 
 	cake := recipe.NewRecipe("cake", time.Duration(3 * time.Second), 350, "cake mix", "eggs", "oil")

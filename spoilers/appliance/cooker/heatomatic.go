@@ -72,6 +72,8 @@ func (h *HeatOMatic) CookDishAsync(d *dish.Dish, wg *sync.WaitGroup) error {
 	fmt.Printf("[Appliance %s] Handling Dish: %s\n", h.GetName(), d.String())
 
 	h.preheatOven(d.GetCookTemp())
+	fmt.Printf("[Appliance %s] Cooking Dish: %s\n", h.GetName(), d.String())
+
 	<- time.After(d.GetCookTime())
 	fmt.Printf("[Appliance %s] Dish Complete: %s\n", h.GetName(), d.String())
 	return nil

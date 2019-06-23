@@ -1,6 +1,7 @@
-package recipe
+package cookbook
 
 import (
+	"github.com/ProfessorMc/Recipe/spoilers/recipe"
 	"sync"
 )
 
@@ -13,7 +14,7 @@ func NewSyncCookBook(name string) *SyncCookBook {
 	return &SyncCookBook{CookBook: NewCookBook(name)}
 }
 
-func (c *SyncCookBook) AddRecipe(recipe *Recipe) error {
+func (c *SyncCookBook) AddRecipe(recipe *recipe.Recipe) error {
 	c.mux.Lock()
 	defer c.mux.Unlock()
 	return c.CookBook.AddRecipe(recipe)
@@ -25,7 +26,7 @@ func (c *SyncCookBook) DeleteRecipe(name string) error {
 	return c.CookBook.DeleteRecipe(name)
 }
 
-func (c *SyncCookBook) GetRecipe(name string) (*Recipe, error) {
+func (c *SyncCookBook) GetRecipe(name string) (*recipe.Recipe, error) {
 	c.mux.Lock()
 	defer c.mux.Unlock()
 	return c.CookBook.GetRecipe(name)

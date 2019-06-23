@@ -106,6 +106,7 @@ func (h *SuperHeatOMatic) dishHandler(handlerNumber int, started chan struct{}) 
 		case newDish := <- h.currentDish:
 			fmt.Printf("[Appliance %s Handler %d] Handling Dish: %s\n", h.GetName(), handlerNumber, newDish.String())
 			h.preheatOven(newDish.GetCookTemp())
+			fmt.Printf("[Appliance %s Handler %d] Cooking Dish: %s\n", h.GetName(), handlerNumber, newDish.String())
 			<- time.After(newDish.GetCookTime())
 			newDish.SetTemperature(newDish.GetCookTemp())
 			fmt.Printf("[Appliance %s Handler %d] Dish Complete: %s\n", h.GetName(), handlerNumber, newDish.String())
