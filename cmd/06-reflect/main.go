@@ -14,7 +14,6 @@ import (
 // 02 - Understand how to use reflection to set values
 // 03 - Understand struct tags
 // 04 - Understand how to use reflection inorder to access struct tags
-// 04 - Run Basic Tests
 //
 // Steps:
 //01 - Use the Go lang documentation to describe the associated code (TODO 01)
