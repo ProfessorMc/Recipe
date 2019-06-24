@@ -11,7 +11,7 @@ package main
 // Steps:
 // 01 - Import the 'fmt' (format) package
 // 02 - Use fmt.Println to write "Hello Dinner Party" to the console
-// 03 - Run the application from the console  'go run main.go'
+// 03 - Run the application from the console  'go run main.go' or 'go run .'
 // 04 - Build the application 'go build -o "App1.exe" .'
 // 05 - Verify that the output prints correctly
 // 06 - Install the application

@@ -19,7 +19,7 @@ import (
 // 02 - Add my best mom's name and age (TODO 2)
 // 03 - Add my dad's name and age (TODO 3)
 // 04 - Refactor to support Dad's birthday (Hint: Pointer)
-// 05 - Add a new property to friend to reflect if friend lies about age (Hint: bool, integer )
+// 05 - Add a new property to friend to reflect if friend lies about age (Hint: bool, integer offset )
 // 06 - Run unit tests
 
 type friend struct {

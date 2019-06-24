@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/ProfessorMc/Recipe/spoilers/friend"
 )
 
 var friends []*friend.Friend
 
 func lab2() {
-	fmt.Println("-- Lab2 Friends --")
-	friends = make([]*friend.Friend,0)
+	friends = make([]*friend.Friend, 0)
 	// Add mom
 	mom := friend.NewFriend("Mom", 55)
 	friends = append(friends, mom)

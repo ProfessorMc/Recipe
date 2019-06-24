@@ -1,11 +1,15 @@
 package main
 
-import "github.com/ProfessorMc/Recipe/spoilers/dish"
+import (
+	"fmt"
+
+	"github.com/ProfessorMc/Recipe/spoilers/dish"
+)
 
 var dishes []*dish.Dish
 
-func lab5(){
-	dishes = make([]*dish.Dish,0)
+func lab5() {
+	dishes = make([]*dish.Dish, 0)
 	for _, friend := range friends {
 		cakeRecipe, err := cookbook.GetRecipe("cake")
 		if err != nil {
@@ -13,5 +17,9 @@ func lab5(){
 		}
 		order := dish.NewDish(*friend, *cakeRecipe)
 		dishes = append(dishes, order)
+	}
+
+	for dishIndex := range dishes {
+		fmt.Println(dishes[dishIndex].String())
 	}
 }
